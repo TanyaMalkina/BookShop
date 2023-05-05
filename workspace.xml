@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="577a91bf-ddc6-437b-a063-75d7faf0c2d0" name="Changes" comment="Добавдена авторизация,регистрация и аунтентификация">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/enumm/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/product/addProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/product/editProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/product/infoProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/product/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/user/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/user/infoProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/user/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/java/com/example/bookshop/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/user/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookShop/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookShop/src/main/resources/templates/registration.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OreMG89dTfduLi6MgK67xFlw9F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ИА",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.bookshop.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ИА\BookShop\src\main\resources\templates\USER" />
+      <recent name="D:\ИА\BookShop\src\main\resources\templates\product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BookShopApplication">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ИА/BookShop/templates/USER/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="BookShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BookShop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bookshop.BookShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="577a91bf-ddc6-437b-a063-75d7faf0c2d0" name="Changes" comment="" />
+      <created>1682323077868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682323077868</updated>
+      <workItem from="1682323079045" duration="117260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавдена авторизация,регистрация и аунтентификация" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавдена авторизация,регистрация и аунтентификация" />
+  </component>
+</project>
